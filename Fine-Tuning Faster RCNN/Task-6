@@ -1,1 +1,5 @@
+Fine-tuning Faster R-CNN on a Custom Dataset
 
+a. Train Faster R-CNN on a small custom dataset (e.g., Pascal VOC or your own
+   annotated dataset).
+b. Analyse the impact of different learning rates and batch sizes on performance.
