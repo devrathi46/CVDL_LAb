@@ -1,1 +1,4 @@
+Train a YOLOv5 model on a custom dataset using Ultralytics YOLOv5.
 
+Evaluate the trained model on test images and calculate mAP (Mean Average
+Precision)
