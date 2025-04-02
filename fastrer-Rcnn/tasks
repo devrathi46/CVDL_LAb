@@ -1,1 +1,2 @@
-
+Load a pre-trained Faster R-CNN model (e.g., from torchvision.models.detection) and
+run it on a sample image.
