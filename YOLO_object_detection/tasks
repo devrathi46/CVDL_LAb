@@ -1,1 +1,16 @@
+Implement YOLOv3 using OpenCV to detect objects in a given image.
 
+Implement and compare YOLO object detection results with and without Non-
+Maximum Suppression (NMS). Explain why NMS is necessary in object detection.
+
+Fine-Tuning YOLO on a Custom Dataset:
+a. Train a YOLOv5 model on a custom dataset using Ultralytics YOLOv5.
+b. Evaluate the trained model on test images and calculate mAP (Mean Average
+Precision).
+
+
+YOLO on Video Streams:
+
+Modify the YOLO script to process a live webcam feed or a recorded video.
+Display the FPS (Frames Per Second) on the video to analyze YOLO’s real-
+time performance.
