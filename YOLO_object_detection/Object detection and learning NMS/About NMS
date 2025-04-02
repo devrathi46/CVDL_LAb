@@ -1,0 +1,15 @@
+📌 Why is NMS Necessary?
+Multiple Detections for the Same Object: YOLO predicts multiple bounding boxes for a single object, each with a confidence score.
+
+Overlapping Bounding Boxes: Without NMS, we get many overlapping boxes for the same object, leading to redundant detections.
+
+Improved Detection Accuracy: NMS selects the best bounding box based on confidence scores and discards less confident ones.
+
+Better Visualization: NMS makes object detection results clearer by avoiding cluttered overlapping boxes.
+
+🔍 How NMS Works?
+Sort the detections by confidence scores (highest first).
+
+Select the highest-confidence bounding box and remove all other boxes that have high IoU (Intersection over Union) with it.
+
+Repeat the process until no more boxes need to be removed.
