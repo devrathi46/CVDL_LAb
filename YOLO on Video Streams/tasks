@@ -1,1 +1,4 @@
-Y
+YOLO on Video Streams:
+ a. Modify the YOLO script to process a live webcam feed or a recorded video.
+ b. Display the FPS (Frames Per Second) on the video to analyze YOLO’s real-
+    time performance.
